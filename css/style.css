@@ -140,7 +140,7 @@ h4 {
     padding: 12px 35px;
     background: var(--text-primary);
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 50px;
     transition: var(--transition-fast);
     position: relative;
@@ -148,9 +148,6 @@ h4 {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .btn-primary:hover {
@@ -216,7 +213,6 @@ header.scrolled {
     position: relative;
     transition: color 0.3s;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 
 .nav-link::after {
@@ -317,7 +313,7 @@ header.scrolled {
     font-family: var(--font-heading);
     font-weight: 400;
     font-size: 1rem;
-    letter-spacing: px;
+    letter-spacing: 2px;
     color: var(--accent-color);
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -327,7 +323,7 @@ header.scrolled {
 
 .hero-headline {
     font-family: var(--font-heading);
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 6rem;
     line-height: 1.1;
     margin-bottom: 25px;
@@ -776,7 +772,7 @@ footer {
     gap: 10px;
     padding: 10px 25px;
 
-   
+
     background: rgba(255, 179, 0, 0.1);
     border: 1px solid rgba(255, 179, 0, 0.5);
     border-radius: 50px;

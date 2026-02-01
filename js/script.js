@@ -133,8 +133,6 @@ const logoLink = document.querySelector('.logo');
 
 if (logoLink) {
     logoLink.addEventListener('click', () => {
-        const hamburger = document.querySelector(".hamburger-menu");
-        const navMenu = document.querySelector(".nav-menu");
         // Hapus class active dari menu & hamburger saat logo diklik
         if (navMenu.classList.contains('active')) {
             hamburger.classList.remove('active');

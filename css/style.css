@@ -209,6 +209,9 @@ header.scrolled {
 .nav-link {
     font-size: 0.9rem;
     text-transform: uppercase;
+    position: relative; 
+    padding-button: 5px;
+    transition: color 0.2s;
 }
     .nav-link::after {
         content: '';

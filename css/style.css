@@ -182,16 +182,16 @@ header.scrolled {
     align-items: center;
 }
 
-/* PENGATURAN LOGO GAMBAR */
+
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px; /* Jarak antara gambar logo dan teks */
+    gap: 10px; 
 }
 
 .logo img {
-    height: 20px; /* Tinggi logo dibatasi agar pas di menu */
-    width: auto;  /* Lebar menyesuaikan otomatis */
+    height: 20px;
+    width: auto;
     object-fit: contain;
 }
 
@@ -475,11 +475,11 @@ header.scrolled {
 
 
 .scroll-left {
-    animation: scrollLeft 30s linear infinite;
+    animation: scrollLeft 90s linear infinite;
 }
 
 .scroll-right {
-    animation: scrollRight 30s linear infinite;
+    animation: scrollRight 90s linear infinite;
 }
 
 .marquee-group {
